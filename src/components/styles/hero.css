@@ -1,0 +1,27 @@
+.hero {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero .h-text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #0074D9;
+    z-index: 1;
+}
+
+.h-text h1 {
+    font-size: 65px;
+    text-shadow: 2px 2px 3px #fff;
+}
+
+.h-text p {
+    color: #fff;
+}
