@@ -1,27 +1,65 @@
-.hero {
-    width: 100%;
+.hero-slide {
     height: 80vh;
     position: relative;
 }
 
-.hero img {
-    width: 100%;
-    height: 100%;
+.hs-text {
+    width: 50%;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+    text-align: center;
 }
 
-.hero .h-text {
+.slick-arrow {
+    font-size: 0px !important;
+}
+
+.slick-prev {
     position: absolute;
-    top: 40%;
-    left: 30%;
-    color: #0074D9;
+    left: 10px !important;
     z-index: 1;
 }
 
-.h-text h1 {
-    font-size: 65px;
-    text-shadow: 2px 2px 3px #fff;
+.slick-next {
+    position: absolute;
+    right: 10px !important;
 }
 
-.h-text p {
-    color: #fff;
+.slick-prev:before {
+    font-size: 35px !important;
+}
+
+.slick-next:before {
+    font-size: 35px !important;
+}
+
+.slick-dots li button:before {
+    color: #0074D9 !important;
+    font-size: 15px !important;
+}
+
+@media (max-width:650px) {
+    .hero-slide {
+        height: 40vh;
+    }
+
+    .hs-text{
+        bottom: 10%;
+    }
+
+    .hs-text h1 {
+        font-size: 25px;
+    }
+
+    .hs-text p{
+        display: none;
+    }
+
+    .btn-primary {
+        margin: 5px 0;
+        padding: 10px;
+    }
 }

@@ -6,15 +6,21 @@ export const homeAbout = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    id: 1,
+    id: 2,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Earn A Certificates",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    id: 1,
+    id: 3,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "Learn with Expert",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+  },
+  {
+    id: 4,
+    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+    title: "Personal Toutor",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ];
@@ -292,27 +298,31 @@ export const Sdata = [
     id: 1,
     title: "50% Off For Your First Shopping",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-    cover: "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/11/23172551/Courses-after-BiPC-760x440.png",
+    cover:
+      "https://www.dporganizer.com/wp-content/uploads/2018/02/15145454/education-background.jpg",
   },
   {
     id: 2,
     title: "50% Off For Your First Shopping",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-    cover: "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/11/23172551/Courses-after-BiPC-760x440.png",
+    cover:
+      "https://cdn.shopify.com/s/files/1/0532/7814/6760/collections/iStock-613666158.jpg?v=1616528341",
   },
   {
     id: 3,
     title: "75% Off For Your First Shopping",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-    cover: "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/06/11203056/What-to-do-After-BCom-1536x961.jpg",
+    cover:
+      "https://www.st-laurentacademy.com/wp-content/uploads/2019/05/hero-default-1.jpg",
   },
   {
     id: 4,
     title: "30% Off For Your First Shopping",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-    cover: "https://png.pngtree.com/back_origin_pic/04/08/32/0b71be98885437a0e17a485851fa073b.jpg",
+    cover:
+      "https://www.chooseright.org/wp-content/uploads/2014/03/hero-universities.jpg",
   },
-]; 
+];
 
 export const price = [
   {

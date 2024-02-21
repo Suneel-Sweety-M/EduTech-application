@@ -1,5 +1,4 @@
 import React from "react";
-import Awrapper from "./Awrapper";
 import Heading from "../common/Heading";
 import { homeAbout } from "../../data";
 import "../styles/about.css";
@@ -8,34 +7,28 @@ const AboutCard = () => {
   return (
     <>
       <section className="aboutHome">
-        <div className="container flexSB">
-          <div className="left row">
-            <img src="./images/about.webp" alt="" />
-          </div>
-          <div className="right row">
-            <Heading
-              subtitle="LEARN ANYTHING"
-              title="Benefits About Online Learning Expertise"
-            />
-            <div className="items">
-              {homeAbout.map((val) => {
-                return (
-                  <div className="item flexSB">
-                    <div className="img">
-                      <img src={val.cover} alt="" />
-                    </div>
-                    <div className="text">
-                      <h2>{val.title}</h2>
-                      <p>{val.desc}</p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+        <div className="ha-title">
+          <Heading
+            subtitle="LEARN ANYTHING"
+            title="Benefits About Online Learning Expertise"
+          />
+        </div>
+        <div className="ha-items">
+          {homeAbout.map((val, index) => {
+            return (
+              <div className="ha-item" key={index}>
+                <div className="ha-i-img">
+                  <img src={val.cover} alt="" />
+                </div>
+                <div className="ha-i-text">
+                  <h2>{val.title}</h2>
+                  <p>{val.desc}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
-      <Awrapper />
     </>
   );
 };

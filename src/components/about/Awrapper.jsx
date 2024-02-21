@@ -5,15 +5,15 @@ const Awrapper = () => {
   return (
     <>
       <section className="awrapper">
-        <div className="container grid">
+        <div className="awrapper-items">
           {awrapper.map((val,index) => {
             return (
-              <div className="box flex" key={index}>
-                <div className="img">
+              <div className="awrapper-item" key={index}>
+                <div className="awrapper-item-img">
                   <img src={val.cover} alt="" />
                 </div>
-                <div className="text">
-                  <h1>{val.data}</h1>
+                <div className="awrapper-item-text">
+                  <h1>{val.data}</h1> 
                   <h3>{val.title}</h3>
                 </div>
               </div>

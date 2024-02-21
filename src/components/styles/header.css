@@ -31,7 +31,7 @@ header li {
 }
 
 header ul {
-    padding: 30px 20px;
+    padding: 25px 20px;
     margin: 0;
 }
 
@@ -46,8 +46,8 @@ header ul li a:hover {
 }
 
 .start {
-    background-color:#FFDC00;
-    padding: 20px 70px 0;
+    background-color: #FFDC00;
+    padding: 20px 70px;
     color: #fff;
     clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
 }
@@ -55,6 +55,13 @@ header ul li a:hover {
 .toggle {
     display: none;
 }
+/* 
+header > .flexSB{
+    width: 100%;
+    background-color: #0074D9;
+    position: fixed;
+    top: 0;
+} */
 
 /*--------header------------*/
 @media screen and (max-width: 1000px) {
@@ -67,11 +74,12 @@ header ul li a:hover {
 @media screen and (max-width: 768px) {
     .start {
         clip-path: none;
+        padding: 15px 50px;
     }
 
     header {
         margin: 0;
-        background-color:#0074D9;
+        background-color: #0074D9;
         position: relative;
     }
 
@@ -90,14 +98,14 @@ header ul li a:hover {
         font-size: 30px;
         position: absolute;
         right: 0;
-        top: -20px;
+        top: -28px;
     }
 
     .mobile-nav {
         position: absolute;
-        top: 7vh;
+        top: 9vh;
         left: 0;
         width: 100%;
-        background-color:#0074D9;
+        background-color: #0074D9;
     }
 }

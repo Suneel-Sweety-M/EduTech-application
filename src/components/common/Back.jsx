@@ -7,12 +7,12 @@ const Back = ({ title }) => {
 
   return (
     <>
-      <div className="hero">
-        <img
+      <div className="back">
+        {/* <img
           src="https://thumbs.dreamstime.com/b/dark-blue-background-school-elements-back-to-concept-white-lineart-oil-texture-150284940.jpg"
           alt="hero"
-        />
-        <div className="text">
+        /> */}
+        <div className="back-text">
           <h3>Home / {location.pathname.split("/")[1]}</h3>
           <h1>{title}</h1>
         </div>

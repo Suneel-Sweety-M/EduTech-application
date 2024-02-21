@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../common/Heading";
 import OnlineCources from "../allcources/OnlineCources";
 import { coursesCard } from "../../data";
-import '../styles/allcources.css';
+import "../styles/allcources.css";
 
 const Habout = () => {
   return (
@@ -15,9 +15,8 @@ const Habout = () => {
           />
 
           <div className="coursesCard">
-            {/* copy code form  coursesCard */}
             <div className="grid2">
-              {coursesCard.slice(0, 3).map((val,index) => (
+              {coursesCard.slice(0, 3).map((val, index) => (
                 <div className="items" key={index}>
                   <div className="content flex">
                     <div className="left">
@@ -36,7 +35,7 @@ const Habout = () => {
                         <label htmlFor="">(5.0)</label>
                       </div>
                       <div className="details">
-                        {val.courTeacher.map((details,index) => (
+                        {val.courTeacher.map((details, index) => (
                           <>
                             <div className="box" key={index}>
                               <div className="dimg">

@@ -21,8 +21,8 @@ const Contact = () => {
               <div className="box">
                 <h4>ADDRESS:</h4>
                 <p>
-                  3-5/4, HANUMA SAI NGR, VIJAY PURI
-                  COLONY, Uppal Hyderabad, Hyderabad , Telangana.
+                  3-5/4, HANUMA SAI NGR, VIJAY PURI COLONY, Uppal Hyderabad,
+                  Hyderabad , Telangana.
                 </p>
               </div>
               <div className="box">
@@ -41,14 +41,13 @@ const Contact = () => {
                 <input type="email" placeholder="Email" />
               </div>
               <input type="text" placeholder="Subject" />
-              <textarea cols="30" rows="10">
-                Create a message here...
-              </textarea>
+              <textarea
+                cols="30"
+                rows="10"
+                placeholder="Create a message here..."
+              ></textarea>
               <button className="primary-btn">SEND MESSAGE</button>
             </form>
-
-            <h3>Follow us here</h3>
-            <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
           </div>
         </div>
       </section>

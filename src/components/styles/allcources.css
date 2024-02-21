@@ -76,6 +76,7 @@
 /*-------------online---------*/
 .online {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .online .box {
@@ -136,4 +137,65 @@
 }
 
 /*-------------online---------*/
-@media screen and (max-width: 768px) {}
+@media (max-width: 1250px) {
+    .coursesCard {
+        padding: 15px 0;
+    }
+
+    .items .flex {
+        display: block;
+        text-align: center;
+    }
+
+    .coursesCard .img {
+        margin: auto;
+    }
+
+    .rate {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .coursesCard .text h1 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .para h4 {
+        font-size: 15px;
+    }
+
+    .price h3 {
+        font-size: 15px;
+    }
+
+    .coursesCard .price {
+        margin: 10px 0;
+    }
+
+    .grid3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container {
+        padding: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .grid2 {
+        display: block;
+    }
+
+    .grid3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .online .box {
+        padding: 5px;
+    }
+}
