@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
         <div className="ap-right">
-          <h1 className="ap-r-title">About IIVEDA</h1>
+          <h1 className="ap-r-title">About EduTech</h1>
           <p className="ap-r-desc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
             expedita odio iste repellendus ipsum doloribus quos excepturi

@@ -32,7 +32,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="start">
-            <Link to="/" className="c-logo">IIVEDA</Link>
+            <Link to="/" className="c-logo">EduTech</Link>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
